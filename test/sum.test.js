@@ -1,4 +1,4 @@
-const addition = require("../challenges/return-the-sum-of-two-numbers/sum");
+const addition = require("../return-the-sum-of-two-numbers/sum");
 
 describe("Sum of two numbers", () => {
   test("The result of this sum should be 5", () => {
