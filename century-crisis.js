@@ -1,5 +1,5 @@
 const futurePeople = (population, n) => {
-  return population + n * 360;
+  return population + (n * 360);
 };
 
 console.log(futurePeople(256, 2));
