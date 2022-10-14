@@ -1,6 +1,6 @@
 const timeForMilkAndCookies = (date) => {
-	const christmasEve = new Date(date);
- 	return christmasEve.getMonth() === 11 && christmasEve.getDate() === 24;
+  const christmasEve = new Date(date);
+  return christmasEve.getMonth() === 11 && christmasEve.getDate() === 24;
 };
 
 console.log(timeForMilkAndCookies(new Date(2013, 11, 24)));
